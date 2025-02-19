@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-{
-  /* TODO: import App.jsx from homework folders */
-}
+import { MemeGenerator } from "./hw-10/App";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>{/* TODO: render homework components */}</StrictMode>
+  <StrictMode>
+    <MemeGenerator />
+  </StrictMode>
 );
